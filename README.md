@@ -1,2 +1,2 @@
-# alx-listing-app-04
-API Integration for All Pages
+# alx-listing-app-00
+This project involves building a responsive property listing page using React, TypeScript, and Tailwind CSS.
