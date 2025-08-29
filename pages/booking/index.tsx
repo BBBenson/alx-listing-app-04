@@ -1,6 +1,6 @@
-import BookingForm from "@/components/booking/BookingForm";
-import OrderSummary from "@/components/booking/OrderSummary";
-import CancellationPolicy from "@/components/booking/CancellationPolicy";
+import BookingForm from "@/components/booking/BookingForm"
+import OrderSummary from "@/components/booking/OrderSummary"
+import CancellationPolicy from "@/components/booking/CancellationPolicy"
 
 export default function BookingPage() {
   const bookingDetails = {
@@ -9,7 +9,7 @@ export default function BookingPage() {
     bookingFee: 65,
     totalNights: 3,
     startDate: "24 August 2024",
-  };
+  }
 
   return (
     <div className="container mx-auto p-6">
@@ -21,5 +21,5 @@ export default function BookingPage() {
         <OrderSummary bookingDetails={bookingDetails} />
       </div>
     </div>
-  );
+  )
 }
